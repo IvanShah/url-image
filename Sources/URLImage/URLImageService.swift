@@ -33,9 +33,9 @@ public final class Services {
         self.downloadService = downloadService
     }
 
-    let remoteFileCacheService: RemoteFileCacheService
+    public let remoteFileCacheService: RemoteFileCacheService
 
-    let downloadService: DownloadService
+    public let downloadService: DownloadService
 }
 
 
